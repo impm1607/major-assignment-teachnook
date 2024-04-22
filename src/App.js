@@ -11,6 +11,7 @@ import SE03Lite from "./pages/Products-Page/SE03Lite";
 import SE03 from "./pages/Products-Page/SE03";
 import SE03Max from "./pages/Products-Page/SE03Max";
 import CompareAll from "./pages/Products-Page/CompareAll";
+import PreBookModal from "./pages/Pre-Book-Modal/PreBookModal";
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
         <Route path="/products/se03" element={<SE03 />} />
         <Route path="/products/se03-max" element={<SE03Max />} />
         <Route path="/products/compare-all" element={<CompareAll />} />
+        <Route path="/prebook" element={<PreBookModal />} />
       </Routes>
 
       <UserFooter />
