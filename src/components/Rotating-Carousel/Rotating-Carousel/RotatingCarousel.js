@@ -44,7 +44,7 @@ const RotatingCarousel = ({ slides }) => {
   useEffect(() => {
     const angle = (360 / totalSlides) * currentSlide;
     setRotationAngle(angle);
-  }, [currentSlide, totalSlides]);
+  }, [currentSlide, totalSlides]);      
 
   const settings = {
     dots: false,

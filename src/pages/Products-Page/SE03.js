@@ -5,14 +5,8 @@ import EVsContent from "../../components/EVs-Display-Content/EVsContent";
 
 const SE03 = () => {
   const [tableData] = useState([
-    {
-      specification: "Battery",
-      value: ["2.7Kwh"],
-    },
-    {
-      specification: "Battery features",
-      value: ["LFP with 1500 cycles", "Active Balancing", "Waterproof (IP67)"],
-    },
+    { specification: "Battery", value: ["2.7Kwh"]},
+    { specification: "Battery features", value: ["LFP with 1500 cycles", "Active Balancing", "Waterproof (IP67)"] },
     { specification: "Battery warranty", value: ["3 years"] },
     { specification: "Charging time", value: ["4 hours (12A)"] },
     { specification: "Motor", value: ["1500W"] },
@@ -21,8 +15,7 @@ const SE03 = () => {
     { specification: "Max range (@30km/h)", value: ["150 km"] },
     { specification: "Max range (@45km/h)", value: ["110 km"] },
     { specification: "Max range (@full speed)", value: ["90 km"] },
-    {
-      specification: "Other key benefits",
+    { specification: "Other key benefits",
       value: [
         "Fire-safe Battery",
         "Range prediction",

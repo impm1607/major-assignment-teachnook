@@ -75,7 +75,7 @@ const FullLengthNav = () => {
                     borderBottom: isActive ? "2px solid #252525" : "",
                   })}
                   to={"/products/se03"}>
-                  SE03{" "}
+                  SE03
                 </NavLink>
               </li>
               <li>

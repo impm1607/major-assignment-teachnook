@@ -14,9 +14,7 @@ const ProductsDisplay = ({ imageData }) => {
           <div
             key={index}
             className={
-              index % 2 !== 0
-                ? styles.productContainerReverse
-                : styles.productContainer
+              index % 2 !== 0   ?   styles.productContainerReverse    :    styles.productContainer
             }>
             <div className={styles.imgContainer}>
               <img loading="lazy" src={elm?.link} alt={`${elm?.name} pics`} />

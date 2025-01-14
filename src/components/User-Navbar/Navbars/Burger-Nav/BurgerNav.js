@@ -20,7 +20,7 @@ const BurgerNav = () => {
             height={"80px"}
             width={"170px"}
             src="/images/logo/Rhyno-Logo-Italic-Transperant.png"
-            alt="logo-dhramshala"
+            alt="logo"
           />
         </NavLink>
 

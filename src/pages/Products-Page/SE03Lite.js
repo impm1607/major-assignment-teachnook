@@ -5,14 +5,8 @@ import EVsContent from "../../components/EVs-Display-Content/EVsContent";
 
 const SE03Lite = () => {
   const [tableData] = useState([
-    {
-      specification: "Battery",
-      value: ["1.8Kwh"],
-    },
-    {
-      specification: "Battery features",
-      value: ["LFP with 1500 cycles", "Active Balancing", "Waterproof (IP67)"],
-    },
+    { specification: "Battery", value: ["1.8Kwh"] },
+    { specification: "Battery features", value: ["LFP with 1500 cycles", "Active Balancing", "Waterproof (IP67)"] },
     { specification: "Battery warranty", value: ["3 years"] },
     { specification: "Charging time", value: ["3 hours (12A)"] },
     { specification: "Motor", value: ["1500W"] },

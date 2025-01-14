@@ -40,14 +40,12 @@ const ContactUs = () => {
 
         <ul>
           {contactInfo?.map((elm, index) => (
-            <Fragment key={index}>
-              <li>
+              <li key={index}>
                 <span className={styles.iconCont}>
                   {elm?.icon} {elm?.name}:
                 </span>
                 <span>{elm?.value}</span>
               </li>
-            </Fragment>
           ))}
         </ul>
 
